@@ -21,9 +21,6 @@
 }
 
 @media only screen and (max-width: 450px) {
-  html body {
-    overflow-x: hidden;
-  }
   html body #landing {
     height: 90vh;
   }

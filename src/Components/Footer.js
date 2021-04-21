@@ -8,15 +8,15 @@ const Footer = ({ isMobile }) => {
 			<Container fluid className="footer-content">
 				<Row></Row>
 				{isMobile ? (
-					<Row className="d-flex flex-column justify-content-evenly">
-						<Col xs={{ offset: 1 }} sm={{ offset: 1 }}>
+					<Row>
+						<Col xs={{span: 11, offset: 1 }} sm={{ offset: 1 }}>
 							<img
 								id="brandLogo"
 								src="./BornChinese_Logo_rev.png"
 								alt="born_chinese_logo"
 							></img>
 						</Col>
-						<Col xs={{ span: 9, offset: 1 }} sm={{ span: 9, offset: 1 }} md={6}>
+						<Col xs={{ span: 11, offset: 1 }} sm={{ span: 11, offset: 1 }} md={11}>
 							<p className="footer-about">
 								Born Chinese aims to connect and inspire Chinese Canadians and
 								Americans through helpful and educational content.
@@ -25,7 +25,6 @@ const Footer = ({ isMobile }) => {
 						<Col
 							xs={{ span: 11, offset: 1 }}
 							sm={{ offset: 1 }}
-							className="d-flex flex-column"
 						>
 							<div>
 								<p className="footer-social">
@@ -59,8 +58,8 @@ const Footer = ({ isMobile }) => {
 								Americans through helpful and educational content.
 							</p>
 						</Col>
-						<Col className="d-flex flex-column">
-							<div className="mx-auto">
+						<Col>
+							<div className="mx-auto my-auto">
 								<p className="footer-social">
 									Find us on{" "}
 									<a

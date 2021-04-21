@@ -52,7 +52,7 @@ const Header = () => {
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-			<Link
+			{/* <Link
 				id="return-top"
 				activeClass="active"
 				to="home"
@@ -79,7 +79,7 @@ const Header = () => {
 					</svg>
 					Top
 				</div>
-			</Link>
+			</Link> */}
 		</>
 	);
 };
