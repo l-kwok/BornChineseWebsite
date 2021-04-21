@@ -1,0 +1,193 @@
+#contribute {
+  height: 100vh;
+  min-height: 800px;
+  background-color: #b1bfc2;
+  overflow: hidden;
+}
+
+#contribute a {
+  color: white;
+}
+
+#contribute a::after {
+  color: white;
+}
+
+#contribute a:hover {
+  text-decoration: none;
+}
+
+#contribute p {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  word-wrap: break-word;
+  margin-bottom: 12px;
+  line-height: 1.3rem;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1.3rem;
+}
+
+#contribute p:before, #contribute p:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 25px;
+}
+
+#contribute #helpPage-title {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+#contribute #helpPage-arrow {
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#contribute #helpPage-arrow path {
+  stroke: white;
+  stroke-width: 0.5px;
+}
+
+#contribute .convo-bubbles {
+  color: white;
+  background: #0b93f6;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#contribute .convo-bubbles:before {
+  right: -7px;
+  width: 20px;
+  background-color: #0b93f6;
+  border-bottom-left-radius: 16px 14px;
+}
+
+#contribute .convo-bubbles:after {
+  right: -26px;
+  width: 26px;
+  background-color: #b1bfc2;
+  border-bottom-left-radius: 10px;
+}
+
+#contribute #bubble-wrong {
+  left: -10%;
+  top: 250%;
+  -webkit-transform: translate(10%, -250%);
+          transform: translate(10%, -250%);
+}
+
+#contribute #bubble-uncomfort {
+  left: 95%;
+  top: 10%;
+  -webkit-transform: translate(-95%, -10%);
+          transform: translate(-95%, -10%);
+  max-width: 270px;
+}
+
+#contribute #bubble-feedback {
+  left: -20%;
+  top: -50%;
+  -webkit-transform: translate(20%, 50%);
+          transform: translate(20%, 50%);
+}
+
+#contribute #bubble-listen {
+  left: 50%;
+  top: -200%;
+  -webkit-transform: translate(-50%, 200%);
+          transform: translate(-50%, 200%);
+}
+
+#contribute #bubble-callout {
+  left: 130%;
+  top: -90%;
+  -webkit-transform: translate(-130%, 90%);
+          transform: translate(-130%, 90%);
+}
+
+#contribute h1 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  html body #contribute .content {
+    height: 100%;
+    max-height: 600px;
+    max-width: 500px;
+  }
+  html body #contribute .convo-bubbles {
+    font-size: 0.65rem;
+  }
+  html body #contribute #bubble-wrong {
+    left: 0%;
+    top: 0%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    margin-left: auto;
+  }
+  html body #contribute #bubble-uncomfort {
+    left: 0%;
+    top: 0%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    max-width: 160px;
+    margin-left: auto;
+  }
+  html body #contribute #bubble-feedback {
+    left: 0%;
+    top: 0%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  html body #contribute #bubble-listen {
+    left: 0%;
+    top: 0%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  html body #contribute #bubble-callout {
+    left: 0%;
+    top: 0%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    margin-left: auto;
+  }
+  html body #contribute #helpPage-title {
+    cursor: pointer;
+    font-size: 1.15rem;
+    text-align: left;
+    font-weight: 700;
+  }
+  html body #contribute #helpPage-title-post {
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 1.35rem;
+  }
+  html body #contribute #helpPage-arrow {
+    width: 40px;
+    height: 25px;
+    margin-bottom: 8px;
+  }
+  html body #contribute .reverse-bubble {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  html body #contribute .reverse-bubble:before {
+    left: -12px;
+    width: 20px;
+    border-bottom-right-radius: 26px 14px;
+  }
+  html body #contribute .reverse-bubble:after {
+    left: -26px;
+    width: 26px;
+    background-color: #b1bfc2;
+    border-bottom-right-radius: 10px;
+  }
+}
+/*# sourceMappingURL=HelpPage.css.map */

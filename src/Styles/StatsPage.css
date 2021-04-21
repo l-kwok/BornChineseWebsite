@@ -1,0 +1,73 @@
+#learn {
+  background-color: #023b4e;
+  height: 100vh;
+  min-height: 800px;
+  overflow-x: hidden;
+}
+
+#learn ul li {
+  list-style: none;
+  line-height: 2.5rem;
+  color: white;
+}
+
+#learn ul li p {
+  display: inline;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+#learn ul li p a {
+  color: white;
+}
+
+#learn ul li p a::after {
+  color: white;
+}
+
+#learn .bold {
+  font-weight: 700;
+}
+
+#learn .light {
+  font-weight: 500;
+}
+
+#learn .superLight {
+  font-weight: 100;
+}
+
+#learn .strikethrough {
+  text-decoration: line-through;
+}
+
+#learn .underline {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+  html body #learn {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 50vh;
+  }
+  html body #learn .container-fluid {
+    min-height: 50vh;
+  }
+  html body #learn h2 {
+    font-size: 0.96rem;
+    padding-top: 15px;
+  }
+  html body #learn ul li {
+    list-style: none;
+    line-height: 2rem;
+    color: white;
+  }
+  html body #learn ul li p {
+    display: inline;
+    font-size: 0.72rem;
+    letter-spacing: 0.025rem;
+  }
+}
+/*# sourceMappingURL=StatsPage.css.map */

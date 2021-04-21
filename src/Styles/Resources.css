@@ -1,0 +1,93 @@
+#resources {
+  background-color: #487369;
+  height: 100vh;
+  min-height: 600px;
+}
+
+#resources .resources-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+}
+
+#resources h4 a:hover {
+  color: white;
+}
+
+#resources .accordion .card {
+  width: 80vw;
+  background-color: #487369 !important;
+  border: none;
+}
+
+#resources .accordion .card .card-header {
+  background-color: #487369 !important;
+  border: none;
+  padding: 0;
+}
+
+#resources .accordion .card .card-header .btn-link {
+  padding: 0;
+  color: white;
+}
+
+#resources .accordion .card .card-header .btn-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#resources .accordion .card .card-header .btn-link:focus {
+  text-decoration: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#resources .accordion .card .card-header .btn-link .resource-dropdown-chevron {
+  stroke: white;
+  stroke-width: 1.2;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#resources .accordion .card .card-body {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  html body #resources {
+    background-color: #487369;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 76vh;
+  }
+  html body #resources .resources-container {
+    height: 100%;
+  }
+  html body #resources #resources-title {
+    margin-left: -5px;
+    font-size: 1.44rem;
+  }
+  html body #resources h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  html body #resources h4 {
+    margin-top: 35px;
+    font-size: 0.9rem;
+  }
+  html body #resources h4 a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+}
+/*# sourceMappingURL=Resources.css.map */

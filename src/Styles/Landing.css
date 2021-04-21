@@ -1,0 +1,22 @@
+#landing {
+  height: 60vh;
+  background-color: #773738;
+}
+
+#landing #landingTitle {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  html body #landing {
+    height: 40vh;
+    min-height: 300px;
+  }
+  html body #landing-chevron {
+    margin-right: 0;
+  }
+  html body #landingTitle {
+    margin-top: 80px;
+  }
+}
+/*# sourceMappingURL=Landing.css.map */

@@ -1,0 +1,90 @@
+.footer {
+	background-color: #773738;
+	height: 30vh;
+	min-height: 200px;
+	.footer-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		.footer-content-body {
+			.center-content {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+		}
+	}
+
+	p {
+		color: white;
+		margin-bottom: 0px;
+		width: fit-content;
+		a {
+			text-decoration: underline;
+			&:hover {
+				color: white;
+			}
+
+			&::after {
+				color: white;
+			}
+		}
+	}
+
+	.footer-about {
+		font-weight: 300;
+		font-size: 0.75rem;
+		padding-right: 0.5vw;
+		width: fit-content;
+	}
+	.footer-social {
+		font-weight: 600;
+		font-size: 0.75rem;
+		margin: 0;
+	}
+	.footer-copyright {
+		color: white;
+		font-size: 0.72rem;
+		font-weight: 300;
+	}
+
+	#brandLogo {
+		width: 249px;
+		height: 84px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	html {
+		body {
+			.footer {
+				.footer-content {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					height: 100%;
+                    .col{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+
+					#brandLogo {
+						width: 86px;
+						height: 28px;
+					}
+
+					.footer-about {
+						font-size: 0.55rem;
+					}
+
+					.footer-social {
+						font-size: 0.55rem;
+					}
+					.footer-copyright {
+						font-size: 0.4rem;
+					}
+				}
+			}
+		}
+	}
+}

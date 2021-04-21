@@ -1,0 +1,104 @@
+.footer {
+  background-color: #773738;
+  height: 30vh;
+  min-height: 200px;
+}
+
+.footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.footer .footer-content .footer-content-body .center-content {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.footer p {
+  color: white;
+  margin-bottom: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer p a {
+  text-decoration: underline;
+}
+
+.footer p a:hover {
+  color: white;
+}
+
+.footer p a::after {
+  color: white;
+}
+
+.footer .footer-about {
+  font-weight: 300;
+  font-size: 0.75rem;
+  padding-right: 0.5vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer .footer-social {
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.footer .footer-copyright {
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 300;
+}
+
+.footer #brandLogo {
+  width: 249px;
+  height: 84px;
+}
+
+@media only screen and (max-width: 992px) {
+  html body .footer .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+  }
+  html body .footer .footer-content .col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  html body .footer .footer-content #brandLogo {
+    width: 86px;
+    height: 28px;
+  }
+  html body .footer .footer-content .footer-about {
+    font-size: 0.55rem;
+  }
+  html body .footer .footer-content .footer-social {
+    font-size: 0.55rem;
+  }
+  html body .footer .footer-content .footer-copyright {
+    font-size: 0.4rem;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

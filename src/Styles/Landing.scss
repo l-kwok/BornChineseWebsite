@@ -1,0 +1,28 @@
+#landing{
+    height: 60vh;
+    background-color: #773738;
+
+
+    #landingTitle{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+	html {
+		body {
+            #landing{
+                height: 40vh;
+                min-height: 300px;
+            }
+
+            #landing-chevron{
+                margin-right: 0;
+            }
+
+            #landingTitle{
+                margin-top: 80px;
+            }
+		}
+	}
+}
