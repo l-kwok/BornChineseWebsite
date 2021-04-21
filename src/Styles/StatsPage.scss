@@ -2,8 +2,6 @@
 	background-color: #023b4e;
 	height: 100vh;
 	min-height: 800px;
-	
-	overflow-x: hidden;
 	ul {
 		li {
 			p {
@@ -76,7 +74,6 @@
 @media only screen and (max-width: 450px) {
 	html {
 		body {
-			overflow-x: hidden;
 			#learn {
 				height: 100vh;
 				min-height: fit-content;

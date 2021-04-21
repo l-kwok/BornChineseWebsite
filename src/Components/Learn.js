@@ -108,9 +108,9 @@ const StatsPage = ({ isMobile }) => {
 							</li>
 						</ul>
 					</Col>
-					<Col>
+					{/* <Col>
 						<Gallery></Gallery>
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 		</div>

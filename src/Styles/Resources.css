@@ -95,14 +95,9 @@
 }
 
 @media only screen and (max-width: 490px) {
-  html body {
-    overflow-x: hidden;
-  }
-  html body #resources .accordion .card {
-    width: 95vw;
-  }
   html body #resources .accordion .card .card-header {
     padding-bottom: 0;
+    padding-right: 5px;
   }
   html body #resources h3 {
     font-size: 0.8rem;

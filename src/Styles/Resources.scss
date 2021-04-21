@@ -102,13 +102,12 @@
 @media only screen and (max-width: 490px) {
 	html {
 		body {
-			overflow-x: hidden;
 			#resources {
 				.accordion {
 					.card {
-						width: 95vw;
 						.card-header{
 							padding-bottom: 0;
+							padding-right: 5px;
 						}
 					}
 				}

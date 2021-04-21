@@ -45,6 +45,9 @@
 	z-index: 5;
 	font-weight: 700;
 	color: white;
+	&:hover{
+		text-decoration: underline;
+	}
 }
 
 @media only screen and (min-width: 1920px) {
@@ -64,7 +67,6 @@
 @media only screen and (max-width: 992px) {
 	html {
 		body {
-			overflow-x: hidden;
 			.navbar {
 				#brandLogo {
 					width: 135px;
@@ -100,7 +102,6 @@
 @media only screen and (max-width: 450px) {
 	html {
 		body {
-			overflow-x: hidden;
 			.navbar {
 				.navbar-collapse {
 					.navbar-nav {
@@ -132,8 +133,8 @@
 			#return-top {
 				font-size: 0.6rem;
 				top: 85%;
-				left: 70vw;
-				#animated-div {
+				left: 80vw;
+				#animated-div{
 					color: white;
 					background-color: rgba(150, 150, 150, 0.5);
 					border: 1px;
