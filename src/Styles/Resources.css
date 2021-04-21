@@ -21,6 +21,10 @@
   color: white;
 }
 
+#resources h3 {
+  text-align: left;
+}
+
 #resources .accordion .card {
   width: 80vw;
   background-color: #487369 !important;
@@ -30,7 +34,6 @@
 #resources .accordion .card .card-header {
   background-color: #487369 !important;
   border: none;
-  padding: 0;
 }
 
 #resources .accordion .card .card-header .btn-link {
@@ -58,7 +61,6 @@
 
 #resources .accordion .card .card-body {
   padding-top: 0;
-  padding-left: 0;
 }
 
 @media only screen and (max-width: 992px) {
@@ -78,11 +80,12 @@
   }
   html body #resources h3 {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1rem;
   }
   html body #resources h4 {
-    margin-top: 35px;
+    margin-top: 10px;
+    margin-bottom: 35px;
     font-size: 0.9rem;
   }
   html body #resources h4 a:hover {
@@ -91,16 +94,26 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 490px) {
   html body {
     overflow-x: hidden;
   }
+  html body #resources .accordion .card {
+    width: 95vw;
+  }
+  html body #resources .accordion .card .card-header {
+    padding-bottom: 0;
+  }
   html body #resources h3 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    text-align: left;
   }
   html body #resources h4 {
     font-size: 0.75rem;
-    text-align: center;
+  }
+  html body #resources .resources-container .resource-dropdown-chevron {
+    width: 30px;
+    height: 18px;
   }
 }
 /*# sourceMappingURL=Resources.css.map */

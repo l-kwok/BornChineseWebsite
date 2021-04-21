@@ -10,7 +10,7 @@ const Resources = ({ isMobile }) => {
 					className="d-flex justify-content-start resources-container"
 				>
 					<Row>
-						<Col xs={{ offset: 1 }} sm={{ offset: 1 }}>
+						<Col xs={{ offset: 0 }} sm={{ offset: 1 }}>
 							<Accordion>
 								<Card>
 									<Card.Header>

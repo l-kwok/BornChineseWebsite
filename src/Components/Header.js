@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 import "../Styles/Header.css";
-import aos from "aos";
 
 const Header = () => {
-	useEffect(() => {
-		aos.init({ duration: 800, once: false, offset: 200, easing: "ease-in-out-quat" });
-	});
 	return (
 		<>
 			<Navbar id="home" bg="nav-color" variant="dark" expand="lg">
@@ -20,14 +17,49 @@ const Header = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
-						<Nav.Link href="#learn">Learn</Nav.Link>
-						<Nav.Link href="#contribute">Contribute</Nav.Link>
-						<Nav.Link href="#resources">Resources</Nav.Link>
+						<Nav.Link>
+							<Link
+								activeClass="active"
+								to="learn"
+								smooth={true}
+								duration={500}
+							>
+								Learn
+							</Link>
+						</Nav.Link>
+						<Nav.Link>
+							{" "}
+							<Link
+								activeClass="active"
+								to="contribute"
+								smooth={true}
+								duration={500}
+							>
+								Contribute
+							</Link>
+						</Nav.Link>
+						<Nav.Link>
+							{" "}
+							<Link
+								activeClass="active"
+								to="resources"
+								smooth={true}
+								duration={500}
+							>
+								Resources
+							</Link>
+						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-			<Button href="#home" id="return-top">
-				<div id="animated-div" data-aos="fade-up">
+			<Link
+				id="return-top"
+				activeClass="active"
+				to="home"
+				smooth={true}
+				duration={800}
+			>
+				<div id="animated-div" data-aos-duration="200" data-aos="fade-up" data-aos-once="false">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="30"
@@ -45,10 +77,9 @@ const Header = () => {
 							d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
 						/>
 					</svg>
-					<br></br>
 					Top
 				</div>
-			</Button>
+			</Link>
 		</>
 	);
 };

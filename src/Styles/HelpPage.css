@@ -1,6 +1,6 @@
 #contribute {
   height: 100vh;
-  min-height: 800px;
+  min-height: 850px;
   background-color: #b1bfc2;
   overflow: hidden;
 }
@@ -98,16 +98,16 @@
 
 #contribute #bubble-listen {
   left: 50%;
-  top: -200%;
-  -webkit-transform: translate(-50%, 200%);
-          transform: translate(-50%, 200%);
+  top: -100%;
+  -webkit-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
 }
 
 #contribute #bubble-callout {
   left: 130%;
-  top: -90%;
-  -webkit-transform: translate(-130%, 90%);
-          transform: translate(-130%, 90%);
+  top: -50%;
+  -webkit-transform: translate(-130%, 50%);
+          transform: translate(-130%, 50%);
 }
 
 #contribute h1 {
@@ -170,9 +170,9 @@
     font-size: 1.35rem;
   }
   html body #contribute #helpPage-arrow {
-    width: 40px;
-    height: 25px;
-    margin-bottom: 8px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 7px;
   }
   html body #contribute .reverse-bubble {
     -ms-flex-item-align: start;
@@ -199,8 +199,8 @@
     min-height: fit-content;
   }
   html body #contribute #helpPage-title {
-    font-size: 0.75rem;
-    text-align: center;
+    font-size: 0.85rem;
+    text-align: left;
   }
   html body #contribute p {
     line-height: 1rem;

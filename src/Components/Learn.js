@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import aos from "aos";
-
 import "../Styles/StatsPage.css";
 const StatsPage = ({ isMobile }) => {
 	const [animation, setAnimation] = useState("");
-
-	useEffect(() => {
-		aos.init({ duration: 800, once: true, offset: 200, easing: "ease-in-out-quat" });
-	}, []);
 
 	useEffect(() => {
 		if (isMobile) {
@@ -29,7 +23,7 @@ const StatsPage = ({ isMobile }) => {
 						<h2>In Vancouver...</h2>
 						<ul>
 							<li>
-								<div data-aos={animation} data-aos-offset="400">
+								<div data-aos={animation} data-aos-offset="400" data-aos-duration="400">
 									<p className="bold">717%</p>
 									<p className="light"> increase in </p>
 									<p className="bold underline">
@@ -44,6 +38,7 @@ const StatsPage = ({ isMobile }) => {
 									data-aos={animation}
 									data-aos-offset="330"
 									data-aos-delay="300"
+									data-aos-duration="400"
 								>
 									<p className="superLight strikethrough">12 cases in 2019</p>
 									<p className="light"> vs </p>
@@ -61,6 +56,7 @@ const StatsPage = ({ isMobile }) => {
 									data-aos={animation}
 									data-aos-offset="230"
 									data-aos-delay="500"
+									data-aos-duration="400"
 								>
 									<p className="bold">60%</p>
 									<p className="light"> of victims are </p>
@@ -76,6 +72,7 @@ const StatsPage = ({ isMobile }) => {
 									data-aos={animation}
 									data-aos-offset="200"
 									data-aos-delay="700"
+									data-aos-duration="400"
 								>
 									<p className="bold">65%</p>
 									<p className="light"> of incidents are </p>
@@ -91,6 +88,7 @@ const StatsPage = ({ isMobile }) => {
 									data-aos={animation}
 									data-aos-offset="140"
 									data-aos-delay="900"
+									data-aos-duration="400"
 								>
 									<p className="bold">30%</p>
 									<p className="light"> of incidents are </p>
