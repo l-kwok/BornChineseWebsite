@@ -201,3 +201,22 @@
 		}
 	}
 }
+
+
+@media only screen and (max-width: 450px) {
+	html {
+		body {
+			#contribute{
+				height: 100vh;
+				min-height: fit-content;
+				#helpPage-title{
+					font-size: 0.75rem;
+					text-align: center;
+				}
+				p{
+					line-height: 1rem;
+				}
+			}
+		}
+	}
+}

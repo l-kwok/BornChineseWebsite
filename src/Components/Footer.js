@@ -23,7 +23,7 @@ const Footer = ({ isMobile }) => {
 							</p>
 						</Col>
 						<Col
-							xs={{ offset: 1 }}
+							xs={{ span: 11, offset: 1 }}
 							sm={{ offset: 1 }}
 							className="d-flex flex-column"
 						>
@@ -79,7 +79,7 @@ const Footer = ({ isMobile }) => {
 					</Row>
 				)}
 				<Row>
-					<Col className="d-flex justify-content-center footer-copyright">
+					<Col xs={{offset: 1}} className="d-flex justify-content-center footer-copyright">
 						<p>
 							Born Chinese <span>&#169;</span> Copyright 2021. Website by{" "}
 							<a href="https://lindenkwok.ca/"> Linden Kwok.</a>

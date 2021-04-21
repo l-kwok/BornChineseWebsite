@@ -70,4 +70,21 @@
     letter-spacing: 0.025rem;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  html body {
+    overflow-x: hidden;
+  }
+  html body #learn {
+    height: 100vh;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+  html body #learn ul li {
+    line-height: 1rem;
+    color: white;
+    margin-top: 25px;
+  }
+}
 /*# sourceMappingURL=StatsPage.css.map */

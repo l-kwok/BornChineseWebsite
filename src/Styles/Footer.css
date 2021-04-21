@@ -1,7 +1,7 @@
 .footer {
   background-color: #773738;
   height: 30vh;
-  min-height: 200px;
+  min-height: 340px;
 }
 
 .footer .footer-content {
@@ -99,6 +99,7 @@
   }
   html body .footer .footer-content .footer-copyright {
     font-size: 0.4rem;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=Footer.css.map */

@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/Landing.css";
-import aos from "aos";
+
 const Landing = ({ isMobile }) => {
-	useEffect(() => {
-		aos.init({ duration: 1500, offset: 200, easing: "ease-in-out-quat" });
-	});
 	return (
 		<div id="landing">
 			<Container fluid className="evenRows">

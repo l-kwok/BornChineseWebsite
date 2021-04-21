@@ -190,4 +190,20 @@
     border-bottom-right-radius: 10px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  html body #contribute {
+    height: 100vh;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+  html body #contribute #helpPage-title {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  html body #contribute p {
+    line-height: 1rem;
+  }
+}
 /*# sourceMappingURL=HelpPage.css.map */

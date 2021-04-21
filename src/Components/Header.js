@@ -5,7 +5,7 @@ import aos from "aos";
 
 const Header = () => {
 	useEffect(() => {
-		aos.init({ duration: 800, offset: 200, easing: "ease-in-out-quat" });
+		aos.init({ duration: 800, once: false, offset: 200, easing: "ease-in-out-quat" });
 	});
 	return (
 		<>

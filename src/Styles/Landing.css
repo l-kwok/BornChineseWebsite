@@ -19,4 +19,16 @@
     margin-top: 80px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  html body {
+    overflow-x: hidden;
+  }
+  html body #landing {
+    height: 90vh;
+  }
+  html body #landingTitle {
+    margin-top: 0px;
+  }
+}
 /*# sourceMappingURL=Landing.css.map */

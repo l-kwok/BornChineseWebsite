@@ -44,7 +44,6 @@
 		body {
 			overflow-x: hidden;
 			.navbar {
-				
 				#brandLogo {
 					width: 135px;
 					margin-top: 17px;
@@ -71,6 +70,51 @@
 
 			#return-top {
 				left: 80%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	html {
+		body {
+			overflow-x: hidden;
+			.navbar {
+				.navbar-collapse {
+					.navbar-nav {
+						.nav-link {
+							font-size: 1rem;
+							margin-top: 0;
+							margin-left: 6.5vw;
+						}
+					}
+				}
+				button {
+					margin-right: 0;
+					border: none;
+					span {
+						opacity: 1;
+					}
+				}
+				.navbar-brand {
+					margin: 0;
+					width: 55%;
+					#brandLogo {
+						min-width: 100px;
+						width: 70%;
+						max-width: 135px;
+					}
+				}
+			}
+
+			#return-top {
+				font-size: 0.6rem;
+				top: 85%;
+				left: 70%;
+				#animated-div{
+					background-color: rgba(150,150,150,0.5);
+					border: 1px;
+				}
 			}
 		}
 	}

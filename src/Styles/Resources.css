@@ -90,4 +90,17 @@
     color: white;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  html body {
+    overflow-x: hidden;
+  }
+  html body #resources h3 {
+    font-size: 0.85rem;
+  }
+  html body #resources h4 {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=Resources.css.map */
