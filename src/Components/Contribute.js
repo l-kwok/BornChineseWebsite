@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/HelpPage.css";
-import aos from "aos";
 
 const HelpPage = ({ isMobile }) => {
 	const [animation, setAnimation] = useState("fade-left");

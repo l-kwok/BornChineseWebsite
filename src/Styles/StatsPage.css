@@ -2,7 +2,6 @@
   background-color: #023b4e;
   height: 100vh;
   min-height: 800px;
-  overflow-x: hidden;
 }
 
 #learn ul li {
@@ -72,9 +71,6 @@
 }
 
 @media only screen and (max-width: 450px) {
-  html body {
-    overflow-x: hidden;
-  }
   html body #learn {
     height: 100vh;
     min-height: -webkit-fit-content;

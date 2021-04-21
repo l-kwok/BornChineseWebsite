@@ -50,8 +50,6 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 
 .footer .footer-social {
@@ -73,16 +71,6 @@
 
 @media only screen and (max-width: 992px) {
   html body .footer .footer-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     height: 100%;
   }
   html body .footer .footer-content .col {
@@ -95,6 +83,9 @@
   }
   html body .footer .footer-content .footer-about {
     font-size: 0.55rem;
+    padding-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
   html body .footer .footer-content .footer-social {
     font-size: 0.55rem;
