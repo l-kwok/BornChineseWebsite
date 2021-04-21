@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-scroll";
+
 import "../Styles/HelpPage.css";
-import aos from "aos";
 
 const HelpPage = ({ isMobile }) => {
 	const [animation, setAnimation] = useState("fade-left");
@@ -58,9 +59,15 @@ const HelpPage = ({ isMobile }) => {
 			{help ? (
 				<Container fluid>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} sm={{ span: 11, offset: 1 }}>
-							<h1 id="helpPage-title" onClick={handleHelpClick}>
-								<a href="#contribute">
+						<Col xs={{ offset: 1, span: 10 }} md={{ span: 11, offset: 1 }} lg={{offset: 0, span: 12}}>
+							<h1 id="helpPage-title" >
+								<Link
+									activeClass="active"
+									to="contribute"
+									smooth={true}
+									duration={500}
+									onClick={handleHelpClick}
+								>
 									Combating racism feels like a daunting task...
 									<br></br>how should I start?
 									<svg
@@ -77,7 +84,7 @@ const HelpPage = ({ isMobile }) => {
 											d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
 										/>
 									</svg>
-								</a>
+								</Link>
 							</h1>
 						</Col>
 					</Row>

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Gallery from "./Gallery";
 import "../Styles/StatsPage.css";
+
 const StatsPage = ({ isMobile }) => {
 	const [animation, setAnimation] = useState("");
 
@@ -14,11 +16,11 @@ const StatsPage = ({ isMobile }) => {
 
 	return (
 		<div id="learn">
-			<Container fluid className="centerRow">
+			<Container fluid className="centerRow content-wrapper">
 				<Row>
 					<Col
 						className="d-flex flex-column align-content-center"
-						xs={{ span: 11, offset: 1 }}
+						xs={{ span: 7, offset: 1 }}
 					>
 						<h2>In Vancouver...</h2>
 						<ul>
@@ -26,10 +28,11 @@ const StatsPage = ({ isMobile }) => {
 								<div data-aos={animation} data-aos-offset="400" data-aos-duration="400">
 									<p className="bold">717%</p>
 									<p className="light"> increase in </p>
-									<p className="bold underline">
-										<a href="https://bc.ctvnews.ca/hate-crimes-up-97-overall-in-vancouver-last-year-anti-asian-hate-crimes-up-717-1.5314307">
-											anti-Asian hate crimes.
+									<p className="bold">
+										<a className="underline" href="https://bc.ctvnews.ca/hate-crimes-up-97-overall-in-vancouver-last-year-anti-asian-hate-crimes-up-717-1.5314307">
+											anti-Asian hate crimes
 										</a>
+										.
 									</p>
 								</div>
 							</li>
@@ -44,10 +47,11 @@ const StatsPage = ({ isMobile }) => {
 									<p className="light"> vs </p>
 									<p className="bold"> 98 </p>
 									<p className="light"> cases in </p>
-									<p className="bold underline">
-										<a href="https://www.theglobeandmail.com/canada/british-columbia/article-horgan-condemns-rise-in-hate-crimes-against-east-asians-in-vancouver/">
-											2020.
+									<p className="bold">
+										<a className="underline" href="https://www.theglobeandmail.com/canada/british-columbia/article-horgan-condemns-rise-in-hate-crimes-against-east-asians-in-vancouver/">
+											2020
 										</a>
+										.
 									</p>
 								</div>
 							</li>
@@ -60,10 +64,11 @@ const StatsPage = ({ isMobile }) => {
 								>
 									<p className="bold">60%</p>
 									<p className="light"> of victims are </p>
-									<p className="bold underline">
-										<a href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian">
-											women.
+									<p className="bold">
+										<a className="underline" href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian">
+											women
 										</a>
+										.
 									</p>
 								</div>
 							</li>
@@ -76,10 +81,11 @@ const StatsPage = ({ isMobile }) => {
 								>
 									<p className="bold">65%</p>
 									<p className="light"> of incidents are </p>
-									<p className="bold underline">
-										<a href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian">
-											verbal abuse.
+									<p className="bold">
+										<a className="underline" href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian">
+											verbal abuse
 										</a>
+										.
 									</p>
 								</div>
 							</li>
@@ -92,14 +98,18 @@ const StatsPage = ({ isMobile }) => {
 								>
 									<p className="bold">30%</p>
 									<p className="light"> of incidents are </p>
-									<p className="bold underline">
-										<a href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian">
-											physical attacks.
+									<p className="bold">
+										<a className="underline" href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian">
+											physical attacks
 										</a>
+										.
 									</p>
 								</div>
 							</li>
 						</ul>
+					</Col>
+					<Col>
+						<Gallery></Gallery>
 					</Col>
 				</Row>
 			</Container>

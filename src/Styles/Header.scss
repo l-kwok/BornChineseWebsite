@@ -1,26 +1,34 @@
-.navbar {
-	#brandLogo {
-		width: 185px;
-		margin-top: 35px;
-		margin-left: 7.5vw;
-	}
-	.navbar-collapse {
-		.navbar-nav {
-			.nav-link {
-				font-family: Inter;
-				font-size: 1.2rem;
-				margin-top: 30px;
-				font-weight: 600;
-				color: rgba(255, 255, 255, 1);
+#nav-wrapper {
+	background-color: #773738;
+	padding: 0;
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+		#brandLogo {
+			width: 185px;
+			margin-top: 35px;
+			margin-left: 9vw;
+		}
+		.navbar-collapse {
+			.navbar-nav {
+				.nav-link {
+					font-family: Inter;
+					font-size: 1.2rem;
+					margin-top: 30px;
+					font-weight: 600;
+					color: rgba(255, 255, 255, 1);
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+				.active {
+					text-decoration: underline;
+				}
+				margin-right: 5vw;
 			}
-			.active {
-				text-decoration: underline;
-			}
-			margin-right: 5vw;
 		}
 	}
 }
-
 #return-top {
 	#animated-div {
 		padding: 5px;
@@ -39,6 +47,19 @@
 	color: white;
 }
 
+@media only screen and (min-width: 1920px) {
+	html {
+		body {
+			#nav-wrapper {
+				.navbar {
+					#brandLogo {
+						margin-left: 170px;
+					}
+				}
+			}
+		}
+	}
+}
 //Mobile Scaling
 @media only screen and (max-width: 992px) {
 	html {
@@ -112,9 +133,9 @@
 				font-size: 0.6rem;
 				top: 85%;
 				left: 70vw;
-				#animated-div{
+				#animated-div {
 					color: white;
-					background-color: rgba(150,150,150,0.5);
+					background-color: rgba(150, 150, 150, 0.5);
 					border: 1px;
 				}
 			}

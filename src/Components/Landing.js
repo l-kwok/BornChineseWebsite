@@ -5,7 +5,7 @@ import "../Styles/Landing.css";
 const Landing = ({ isMobile }) => {
 	return (
 		<div id="landing">
-			<Container fluid className="evenRows">
+			<Container fluid className="evenRows content-wrapper">
 				<Row>
 					<Col className="my-auto" xs={{ span: 11, offset: 1 }}>
 						<h1 id="landingTitle">

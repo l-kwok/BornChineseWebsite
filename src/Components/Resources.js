@@ -125,7 +125,7 @@ const Resources = ({ isMobile }) => {
 			) : (
 				<Container
 					fluid
-					className="d-flex justify-content-evenly resources-container"
+					className="d-flex justify-content-evenly resources-container content-wrapper"
 				>
 					<Row></Row>
 					<Row>

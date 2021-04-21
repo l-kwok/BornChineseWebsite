@@ -5,7 +5,7 @@ import "../Styles/Footer.css";
 const Footer = ({ isMobile }) => {
 	return (
 		<div className="footer">
-			<Container fluid className="footer-content">
+			<Container fluid className="footer-content content-wrapper">
 				<Row></Row>
 				{isMobile ? (
 					<Row className="d-flex flex-column justify-content-evenly">

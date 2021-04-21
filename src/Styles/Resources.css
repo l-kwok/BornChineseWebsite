@@ -69,7 +69,7 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    min-height: 76vh;
+    min-height: 80vh;
   }
   html body #resources .resources-container {
     height: 100%;

@@ -1,14 +1,24 @@
-.navbar #brandLogo {
-  width: 185px;
-  margin-top: 35px;
-  margin-left: 7.5vw;
+#nav-wrapper {
+  background-color: #773738;
+  padding: 0;
 }
 
-.navbar .navbar-collapse .navbar-nav {
+#nav-wrapper .navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#nav-wrapper .navbar #brandLogo {
+  width: 185px;
+  margin-top: 35px;
+  margin-left: 9vw;
+}
+
+#nav-wrapper .navbar .navbar-collapse .navbar-nav {
   margin-right: 5vw;
 }
 
-.navbar .navbar-collapse .navbar-nav .nav-link {
+#nav-wrapper .navbar .navbar-collapse .navbar-nav .nav-link {
   font-family: Inter;
   font-size: 1.2rem;
   margin-top: 30px;
@@ -16,7 +26,11 @@
   color: white;
 }
 
-.navbar .navbar-collapse .navbar-nav .active {
+#nav-wrapper .navbar .navbar-collapse .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+#nav-wrapper .navbar .navbar-collapse .navbar-nav .active {
   text-decoration: underline;
 }
 
@@ -46,6 +60,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (min-width: 1920px) {
+  html body #nav-wrapper .navbar #brandLogo {
+    margin-left: 170px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
