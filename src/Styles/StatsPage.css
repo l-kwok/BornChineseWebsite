@@ -4,6 +4,10 @@
   min-height: 800px;
 }
 
+#learn h2 {
+  text-shadow: 10px 15px 20px rgba(0, 0, 0, 0.9);
+}
+
 #learn ul li {
   list-style: none;
   line-height: 2.5rem;
@@ -11,6 +15,7 @@
 }
 
 #learn ul li p {
+  text-shadow: 10px 15px 15px rgba(0, 0, 0, 0.9);
   display: inline;
   font-size: 1.5rem;
   letter-spacing: 0.05rem;

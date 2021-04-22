@@ -20,7 +20,7 @@ const StatsPage = ({ isMobile }) => {
 				<Row>
 					<Col
 						className="d-flex flex-column align-content-center"
-						xs={{ span: 7, offset: 1 }}
+						xs={{ span: 11, offset: 1 }}
 					>
 						<h2>In Vancouver...</h2>
 						<ul>

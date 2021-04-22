@@ -39,6 +39,12 @@
 #contribute #helpPage-title {
   cursor: pointer;
   font-size: 2rem;
+  text-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+#contribute #helpPage-title-post {
+  text-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 #contribute #helpPage-arrow {

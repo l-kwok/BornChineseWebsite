@@ -2,9 +2,13 @@
 	background-color: #023b4e;
 	height: 100vh;
 	min-height: 800px;
+	h2{
+		text-shadow: 10px 15px 20px rgba(0, 0, 0, 0.9);
+	}
 	ul {
 		li {
 			p {
+				text-shadow: 10px 15px 15px rgba(0, 0, 0, 0.9);
 				display: inline;
 				font-size: 1.5rem;
 				letter-spacing: 0.05rem;

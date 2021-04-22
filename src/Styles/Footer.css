@@ -55,7 +55,7 @@
 .footer .footer-social {
   font-weight: 600;
   font-size: 0.75rem;
-  margin: 0;
+  margin-left: 80px;
 }
 
 .footer .footer-copyright {
@@ -88,6 +88,7 @@
     margin-bottom: 15px;
   }
   html body .footer .footer-content .footer-social {
+    margin-left: 0;
     font-size: 0.55rem;
   }
   html body .footer .footer-content .footer-copyright {

@@ -57,9 +57,9 @@ const HelpPage = ({ isMobile }) => {
 	return (
 		<div id="contribute" className="centerRow">
 			{help ? (
-				<Container fluid>
+				<Container fluid className="content-wrapper">
 					<Row>
-						<Col xs={{ offset: 1, span: 10 }} md={{ span: 11, offset: 1 }} lg={{offset: 0, span: 12}}>
+						<Col xs={{ offset: 1, span: 10 }}>
 							<h1 id="helpPage-title" >
 								<Link
 									activeClass="active"

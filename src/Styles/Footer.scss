@@ -40,7 +40,7 @@
 	.footer-social {
 		font-weight: 600;
 		font-size: 0.75rem;
-		margin: 0;
+		margin-left: 80px;
 	}
 	.footer-copyright {
 		color: white;
@@ -60,10 +60,10 @@
 			.footer {
 				.footer-content {
 					height: 100%;
-                    .col{
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
+					.col {
+						padding-top: 10px;
+						padding-bottom: 10px;
+					}
 
 					#brandLogo {
 						width: 86px;
@@ -78,6 +78,7 @@
 					}
 
 					.footer-social {
+						margin-left: 0;
 						font-size: 0.55rem;
 					}
 					.footer-copyright {
