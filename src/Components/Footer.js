@@ -12,7 +12,7 @@ const Footer = ({ isMobile }) => {
 						<Col xs={{span: 11, offset: 1 }} sm={{ offset: 1 }}>
 							<img
 								id="brandLogo"
-								src="./BornChinese_Logo_rev.png"
+								src="./Images/BornChinese_Logo_rev.png"
 								alt="born_chinese_logo"
 							></img>
 						</Col>
@@ -48,7 +48,7 @@ const Footer = ({ isMobile }) => {
 						<Col className="d-flex justify-content-center">
 							<img
 								id="brandLogo"
-								src="./BornChinese_Logo_rev.png"
+								src="./Images/BornChinese_Logo_rev.png"
 								alt="born_chinese_logo"
 							></img>
 						</Col>

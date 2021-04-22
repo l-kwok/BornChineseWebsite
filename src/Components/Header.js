@@ -11,7 +11,7 @@ const Header = () => {
 					<Navbar.Brand className="whiteText" href="#home">
 						<img
 							id="brandLogo"
-							src="./BornChinese_Logo_rev.png"
+							src="./Images/BornChinese_Logo_rev.png"
 							alt="born_chinese_logo"
 						></img>
 					</Navbar.Brand>
