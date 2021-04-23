@@ -1,0 +1,40 @@
+.card {
+	width: 260px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+	background-color: rgb(230, 230, 230);
+	.card-body {
+		height: fit-content;
+		.card-title {
+			font-size: 0.85rem;
+			font-weight: 700;
+			min-height: 100px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.card-text {
+			font-size: 0.65rem;
+			font-weight: 500;
+			min-height: 200px;
+		}
+
+		.card-link {
+			.learnMore-Button {
+				font-size: 0.65rem;
+				&:hover {
+					background-color: #c4c4c4;
+					border-color: rgb(230, 230, 230);
+					color: white;
+					box-shadow: 5px 5px 15px rgba(197, 197, 197, 0.25);
+				}
+
+				&:active {
+					box-shadow: 0px 0px 15px rgba(197, 197, 197, 0.25);
+				}
+			}
+		}
+	}
+}
