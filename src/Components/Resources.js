@@ -41,23 +41,47 @@ const Resources = ({ isMobile }) => {
 										<Card.Body>
 											{" "}
 											<h4>
-												<a href="https://act2endracism.ca/">ACCT Foundation</a>
+												<a
+													href="https://act2endracism.ca/"
+													target="_blank"
+													rel="noreferrer"
+												>
+													ACCT Foundation
+												</a>
 											</h4>
 											<h4>
-												<a href="https://www.yarrowsociety.ca/">
+												<a
+													href="https://www.yarrowsociety.ca/"
+													target="_blank"
+													rel="noreferrer"
+												>
 													Yarrow Intergenerational Society for Justice
 												</a>
 											</h4>
 											<h4>
-												<a href="https://huafoundation.org/">Hua Foundation</a>
+												<a
+													href="https://huafoundation.org/"
+													target="_blank"
+													rel="noreferrer"
+												>
+													Hua Foundation
+												</a>
 											</h4>
 											<h4>
-												<a href="https://www.chinatownfoundation.org/">
+												<a
+													href="https://www.chinatownfoundation.org/"
+													target="_blank"
+													rel="noreferrer"
+												>
 													The Chinatown Foundation
 												</a>
 											</h4>
 											<h4 className="longLinks">
-												<a  href="https://pchc-mom.org/virtual-storytelling-series/story-archive/">
+												<a
+													href="https://pchc-mom.org/virtual-storytelling-series/story-archive/"
+													target="_blank"
+													rel="noreferrer"
+												>
 													Pacific Canada Heritage Centre - Museum of Migration
 												</a>
 											</h4>
@@ -91,22 +115,38 @@ const Resources = ({ isMobile }) => {
 									<Accordion.Collapse eventKey="1">
 										<Card.Body>
 											<h4>
-												<a href="https://www.ihollaback.org/bystanderintervention/">
+												<a
+													href="https://www.ihollaback.org/bystanderintervention/"
+													target="_blank"
+													rel="noreferrer"
+												>
 													Bystander Intervention
 												</a>
 											</h4>
 											<h4>
-												<a href="https://www.elimin8hate.org/resources">
+												<a
+													href="https://www.elimin8hate.org/resources"
+													target="_blank"
+													rel="noreferrer"
+												>
 													Elimin8hate
 												</a>
 											</h4>
 											<h4>
-												<a href="https://www.project1907.org/resources">
+												<a
+													href="https://www.project1907.org/resources"
+													target="_blank"
+													rel="noreferrer"
+												>
 													Project 1907
 												</a>
 											</h4>
 											<h4>
-												<a href="https://www.stopthespread.ca/">
+												<a
+													href="https://www.stopthespread.ca/"
+													target="_blank"
+													rel="noreferrer"
+												>
 													Stop the Spread
 												</a>
 											</h4>
@@ -128,13 +168,8 @@ const Resources = ({ isMobile }) => {
 					className="resources-container d-flex flex-column justify-content-evenly"
 				>
 					<Row>
-						<Col className="align-self-center">
-							<h3 id="resourceTitle">How can I help in...</h3>
-						</Col>
-					</Row>
-					<Row>
 						<Col>
-							<h3 className="my-auto"> Canada </h3>
+							<h3> Canada </h3>
 						</Col>
 					</Row>
 					<Row>
@@ -206,7 +241,7 @@ const Resources = ({ isMobile }) => {
 						<Col>
 							<ResourceLink
 								title="The Chinatown Foundation"
-								body="Focuses on building a resilient and inclusive community by promoting the well-being of those in need, while preserving Chinatown’s irreplaceable cultural heritage."
+								body="Focuses on building a resilient community, while preserving Chinatown’s irreplaceable cultural heritage."
 								link="https://www.chinatownfoundation.org/"
 							></ResourceLink>
 						</Col>

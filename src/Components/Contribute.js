@@ -99,12 +99,12 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }}>
+						<Col xs={{ span: 10, offset: 0 }}>
 							<div data-aos="zoom-in-up" data-aos-delay="300"></div>
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }}>
+						<Col xs={{ span: 10, offset: 0 }}>
 							<div data-aos="zoom-in-up" data-aos-delay="300">
 								<p id="bubble-wrong" className="convo-bubbles">
 									I'm ready to be wrong.
@@ -113,12 +113,12 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} xl={{ span: 11 }}>
+						<Col xs={{ span: 10, offset: 0 }} xl={{ span: 11 }}>
 							{content}
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }}>
+						<Col xs={{ span: 10, offset: 0 }}>
 							<div data-aos="zoom-in-up" data-aos-delay="700">
 								<p
 									id="bubble-feedback"
@@ -130,7 +130,7 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }}>
+						<Col xs={{ span: 10, offset: 0 }}>
 							<div
 								data-aos="zoom-in-up"
 								data-aos-offset="-400"
@@ -143,7 +143,7 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }}>
+						<Col xs={{ span: 10, offset: 0 }}>
 							<div
 								data-aos="zoom-in-up"
 								data-aos-offset="-400"

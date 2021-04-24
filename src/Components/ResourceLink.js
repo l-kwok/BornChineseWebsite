@@ -8,7 +8,7 @@ const ResourceLink = ({ title, body, link }) => {
 			<Card.Body>
 				<Card.Title>{title}</Card.Title>
 				<Card.Text>{body}</Card.Text>
-				<Card.Link href={link}>
+				<Card.Link href={link} target="_blank" rel="noreferrer">
 					<Button variant="outline-info" className="learnMore-Button">Learn More</Button>
 				</Card.Link>
 			</Card.Body>
@@ -17,3 +17,8 @@ const ResourceLink = ({ title, body, link }) => {
 };
 
 export default ResourceLink;
+
+
+//TODO: Mobile: Message Line Height
+//TODO: Remove How Can I help
+//TODO: Brand Logo Alignment
