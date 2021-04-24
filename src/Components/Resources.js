@@ -11,7 +11,7 @@ const Resources = ({ isMobile }) => {
 					className="d-flex justify-content-start resources-container"
 				>
 					<Row>
-						<Col xs={{ offset: 0 }} sm={{ offset: 1 }}>
+						<Col xs={{ offset: 1 }} sm={{ offset: 1 }}>
 							<Accordion>
 								<Card>
 									<Card.Header>
@@ -56,10 +56,9 @@ const Resources = ({ isMobile }) => {
 													The Chinatown Foundation
 												</a>
 											</h4>
-											<h4>
-												<a href="https://pchc-mom.org/virtual-storytelling-series/story-archive/">
-													Pacific Canada Heritage Centre - <br></br>Museum of
-													Migration
+											<h4 className="longLinks">
+												<a  href="https://pchc-mom.org/virtual-storytelling-series/story-archive/">
+													Pacific Canada Heritage Centre - Museum of Migration
 												</a>
 											</h4>
 										</Card.Body>
@@ -111,7 +110,7 @@ const Resources = ({ isMobile }) => {
 													Stop the Spread
 												</a>
 											</h4>
-											<h4>
+											<h4 className="longLinks">
 												<a href="https://ccncsj.ca/">
 													Chinese Canadian National Council - For Social Justice
 												</a>
@@ -213,7 +212,7 @@ const Resources = ({ isMobile }) => {
 						</Col>
 						<Col>
 							<ResourceLink
-								title="Pacific Canada Heritage Centre - Museum ofMigration"
+								title="Pacific Canada Heritage Centre - Museum of Migration"
 								body="Learn more about the stories of Chinese migrants to better understand their history and struggles."
 								link="https://pchc-mom.org/virtual-storytelling-series/story-archive/"
 							></ResourceLink>

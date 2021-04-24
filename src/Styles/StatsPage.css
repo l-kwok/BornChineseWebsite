@@ -12,8 +12,7 @@
 
 #learn ul li p {
   display: inline;
-  font-size: 1.5rem;
-  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
 }
 
 #learn ul li p a {
@@ -42,6 +41,31 @@
 
 #learn .underline {
   text-decoration: underline;
+}
+
+#learn img {
+  position: relative;
+  width: 300px;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.4);
+}
+
+#learn #img-protest {
+  position: absolute;
+  left: 70px;
+  top: -40px;
+}
+
+#learn #img-chinatown {
+  left: -110px;
+  top: 110px;
+}
+
+@media only screen and (max-width: 1175px) {
+  html body #learn img {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) {

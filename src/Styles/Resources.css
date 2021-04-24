@@ -36,7 +36,7 @@
 }
 
 #resources .accordion .card {
-  width: 80vw;
+  width: 79vw;
   background-color: #487369 !important;
   border: none;
 }
@@ -97,15 +97,15 @@
   }
   html body #resources .resources-container .row {
     margin-left: 0;
+    margin-right: 0;
   }
-  html body #resources #resources-title {
-    margin-left: -5px;
-    font-size: 1.44rem;
+  html body #resources .resources-container .col {
+    padding-right: 0;
   }
   html body #resources h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   html body #resources h4 {
     margin-top: 10px;
@@ -115,6 +115,9 @@
   html body #resources h4 a:hover {
     text-decoration: underline;
     color: white;
+  }
+  html body #resources .longLinks {
+    width: 400px;
   }
 }
 
@@ -129,6 +132,9 @@
   }
   html body #resources h4 {
     font-size: 0.75rem;
+  }
+  html body #resources .longLinks {
+    width: 90%;
   }
   html body #resources .resources-container .resource-dropdown-chevron {
     width: 30px;
