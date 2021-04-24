@@ -17,8 +17,4 @@ const ResourceLink = ({ title, body, link }) => {
 };
 
 export default ResourceLink;
-
-
-//TODO: Mobile: Message Line Height
-//TODO: Remove How Can I help
 //TODO: Brand Logo Alignment

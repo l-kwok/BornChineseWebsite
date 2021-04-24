@@ -1,5 +1,6 @@
 {
     "cSpell.ignoreWords": [
         "noreferrer"
-    ]
+    ],
+    "todo-tree.tree.showBadges": false
 }
