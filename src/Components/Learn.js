@@ -21,7 +21,7 @@ const StatsPage = ({ isMobile }) => {
 						className="d-flex flex-column align-content-center"
 						xs={{ span: 11, offset: 1 }}
 						sm={{ span: 11, offset: 1 }}
-						lg={{ span: 7, offset: 1 }}
+						xl={{ span: 6, offset: 1 }}
 					>
 						<h2>In Vancouver...</h2>
 						<ul>

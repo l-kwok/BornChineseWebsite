@@ -53,16 +53,16 @@
 
 #learn #img-protest {
   position: absolute;
-  left: 70px;
-  top: -40px;
+  left: 60px;
+  top: -60px;
 }
 
 #learn #img-chinatown {
-  left: -110px;
-  top: 110px;
+  left: -80px;
+  top: 140px;
 }
 
-@media only screen and (max-width: 1175px) {
+@media only screen and (max-width: 1205px) {
   html body #learn img {
     display: none;
   }
