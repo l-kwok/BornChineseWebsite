@@ -19,7 +19,6 @@
 }
 
 #nav-wrapper .navbar .navbar-collapse .navbar-nav .nav-link {
-  font-family: Inter;
   font-size: 1.2rem;
   margin-top: 30px;
   font-weight: 600;
@@ -77,12 +76,12 @@
     width: 135px;
     margin-top: 17px;
     margin-bottom: 17px;
-    margin-left: 6vw;
+    margin-left: 10.5vw;
   }
   html body #nav-wrapper .navbar .navbar-collapse .navbar-nav .nav-link {
     font-size: 0.9rem;
     margin-top: 0;
-    margin-left: 6.5vw;
+    margin-left: 10.5vw;
   }
   html body #nav-wrapper .navbar button {
     margin-right: 6vw;
@@ -91,32 +90,34 @@
   html body #nav-wrapper .navbar button span {
     opacity: 1;
   }
-  html body #nav-wrapper #return-top {
+  html body #return-top {
     left: 80%;
+    font-size: 0.8rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  html body .navbar .navbar-collapse .navbar-nav .nav-link {
+  html body #nav-wrapper .navbar .navbar-collapse .navbar-nav .nav-link {
     font-size: 1rem;
     margin-top: 0;
-    margin-left: 6.5vw;
+    margin-left: 11vw;
   }
-  html body .navbar button {
+  html body #nav-wrapper .navbar button {
     margin-right: 0;
     border: none;
   }
-  html body .navbar button span {
+  html body #nav-wrapper .navbar button span {
     opacity: 1;
   }
-  html body .navbar .navbar-brand {
+  html body #nav-wrapper .navbar .navbar-brand {
     margin: 0;
     width: 55%;
   }
-  html body .navbar .navbar-brand #brandLogo {
+  html body #nav-wrapper .navbar .navbar-brand #brandLogo {
     min-width: 100px;
     width: 70%;
     max-width: 135px;
+    margin-left: 11vw;
   }
   html body #return-top {
     font-size: 0.6rem;

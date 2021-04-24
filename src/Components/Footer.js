@@ -81,7 +81,7 @@ const Footer = ({ isMobile }) => {
 					<Col xs={{offset: 1}} className="d-flex justify-content-center footer-copyright">
 						<p>
 							Born Chinese <span>&#169;</span> Copyright 2021. Website by{" "}
-							<a href="https://lindenkwok.ca/"> Linden Kwok.</a>
+							<a href="https://l-kwok.github.io/"> Linden Kwok.</a>
 						</p>
 					</Col>
 				</Row>

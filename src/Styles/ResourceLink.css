@@ -1,5 +1,5 @@
 .card {
-  width: 260px;
+  width: 245px;
   margin-top: 50px;
   margin-bottom: 50px;
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
@@ -16,7 +16,7 @@
 .card .card-body .card-title {
   font-size: 0.85rem;
   font-weight: 700;
-  min-height: 100px;
+  min-height: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -67,6 +67,7 @@ const HelpPage = ({ isMobile }) => {
 									smooth={true}
 									duration={500}
 									onClick={handleHelpClick}
+									offset={140}
 								>
 									Combating racism feels like a daunting task...
 									<br></br>how should I start?
@@ -90,7 +91,7 @@ const HelpPage = ({ isMobile }) => {
 					</Row>
 				</Container>
 			) : (
-				<Container className="d-flex flex-column justify-content-around content">
+				<Container className="d-flex flex-column justify-content-around content fluid">
 					<Row>
 						<Col>
 							<div data-aos="fade" data-aos-duration="800" data-aos-delay="0">
@@ -99,12 +100,12 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 0 }}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
 							<div data-aos="zoom-in-up" data-aos-delay="300"></div>
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 0 }}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
 							<div data-aos="zoom-in-up" data-aos-delay="300">
 								<p id="bubble-wrong" className="convo-bubbles">
 									I'm ready to be wrong.
@@ -113,12 +114,12 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 0 }} xl={{ span: 11 }}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{span: 11, offset: 0}}>
 							{content}
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 0 }}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
 							<div data-aos="zoom-in-up" data-aos-delay="700">
 								<p
 									id="bubble-feedback"
@@ -130,7 +131,7 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 0 }}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
 							<div
 								data-aos="zoom-in-up"
 								data-aos-offset="-400"
@@ -143,7 +144,7 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 0 }}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
 							<div
 								data-aos="zoom-in-up"
 								data-aos-offset="-400"

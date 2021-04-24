@@ -187,7 +187,7 @@ const Resources = ({ isMobile }) => {
 								link="https://www.elimin8hate.org/resources"
 							></ResourceLink>
 						</Col>
-						<Col>
+						<Col className="extended-col">
 							<ResourceLink
 								title="Project 1907"
 								body="Read more about the history and the prevailing issues of anti-Asian racism."
@@ -208,7 +208,7 @@ const Resources = ({ isMobile }) => {
 								link="https://ccncsj.ca/"
 							></ResourceLink>
 						</Col>
-						<Col></Col>
+						<Col className="extended-col"></Col>
 					</Row>
 					<Row>
 						<Col>
@@ -231,7 +231,7 @@ const Resources = ({ isMobile }) => {
 								link="https://www.yarrowsociety.ca/"
 							></ResourceLink>
 						</Col>
-						<Col>
+						<Col className="extended-col">
 							<ResourceLink
 								title="Hua Foundation"
 								body="Focuses on racial equity and civic engagement issues."
@@ -252,7 +252,7 @@ const Resources = ({ isMobile }) => {
 								link="https://pchc-mom.org/virtual-storytelling-series/story-archive/"
 							></ResourceLink>
 						</Col>
-						<Col></Col>
+						<Col className="extended-col"></Col>
 					</Row>
 				</Container>
 			)}

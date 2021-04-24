@@ -74,6 +74,12 @@
   padding-top: 0;
 }
 
+@media (max-width: 1530px) and (min-width: 1230px) {
+  html body .extended-col {
+    margin-right: 20%;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   html body #resources {
     background-color: #487369;
@@ -102,6 +108,9 @@
   }
   html body #resources .resources-container .col {
     padding-right: 0;
+  }
+  html body #resources .resources-container .extended-col {
+    margin-right: 0;
   }
   html body #resources h3 {
     margin-top: 20px;
