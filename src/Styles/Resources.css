@@ -34,6 +34,7 @@
   text-align: left;
   margin-top: 6vh;
   margin-bottom: 0;
+  font-size: 1.75rem;
 }
 
 #resources .accordion .card {
@@ -68,6 +69,14 @@
   stroke-width: 1.2;
   margin-top: 25px;
   margin-bottom: 20px;
+}
+
+#resources .accordion .card .card-header .btn-link #resource-canada {
+  width: 60vw;
+}
+
+#resources .accordion .card .card-header .btn-link #resource-vancouver {
+  width: 60.25vw;
 }
 
 #resources .accordion .card .card-body {

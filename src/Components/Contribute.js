@@ -63,7 +63,7 @@ const HelpPage = ({ isMobile }) => {
 				<Container fluid className="content-wrapper">
 					<Row>
 						<Col xs={{ offset: 1, span: 10 }}>
-							<h1 id="helpPage-title">
+							<h1 className="helpPage-title">
 								<Link
 									activeClass="active"
 									to="contribute"
@@ -72,8 +72,23 @@ const HelpPage = ({ isMobile }) => {
 									onClick={handleHelpClick}
 									offset={scrollOffset}
 								>
-									Combating racism feels like a daunting task...
-									<br></br>how should I start?
+									Combating racism feels like a daunting task
+								</Link>
+							</h1>
+						</Col>
+					</Row>
+					<Row>
+						<Col xs={{ offset: 1, span: 10 }}>
+							<h1 className="helpPage-title">
+								<Link
+									activeClass="active"
+									to="contribute"
+									smooth={true}
+									duration={500}
+									onClick={handleHelpClick}
+									offset={scrollOffset}
+								>
+									How should I start?
 									<svg
 										id="helpPage-arrow"
 										xmlns="http://www.w3.org/2000/svg"

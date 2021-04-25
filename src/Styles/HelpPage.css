@@ -5,6 +5,20 @@
   background-color: #b1bfc2;
 }
 
+#contribute .container-fluid {
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 #contribute a {
   color: white;
 }
@@ -37,11 +51,12 @@
   height: 25px;
 }
 
-#contribute #helpPage-title {
+#contribute .helpPage-title {
   cursor: pointer;
   font-size: 2rem;
   text-align: left;
   text-shadow: none;
+  font-weight: 700;
 }
 
 #contribute #helpPage-title-post {
@@ -121,8 +136,11 @@
 }
 
 @media only screen and (max-width: 992px) {
+  html body #contribute .container-fluid {
+    height: 20%;
+  }
   html body #contribute p {
-    line-height: 0.9rem;
+    line-height: 0.75rem;
   }
   html body #contribute .content {
     height: 100%;
@@ -166,7 +184,7 @@
             transform: translate(0%, 0%);
     margin-left: auto;
   }
-  html body #contribute #helpPage-title {
+  html body #contribute .helpPage-title {
     cursor: pointer;
     font-size: 1.15rem;
     text-align: left;
@@ -205,7 +223,7 @@
     height: 120vh;
     min-height: 500px;
   }
-  html body #contribute #helpPage-title {
+  html body #contribute .helpPage-title {
     font-size: 1rem;
     text-align: left;
   }

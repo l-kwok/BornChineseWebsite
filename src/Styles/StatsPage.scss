@@ -51,14 +51,11 @@
 		position: absolute;
 		left: 60px;
 		top: -60px;
-		// transform: translate(-30%, 10%);
 	}
 
 	#img-chinatown{
 		left: -80px;
 		top: 140px;
-		// transform: translate(0%, 20%);
-
 	}
 }
 @media only screen and (max-width: 1205px) {
@@ -84,7 +81,7 @@
 				h2 {
 					font-size: 0.96rem;
 					padding-top: 15px;
-					letter-spacing: 0.2rem;
+					letter-spacing: 0.15rem;
 				}
 				ul {
 					li {
