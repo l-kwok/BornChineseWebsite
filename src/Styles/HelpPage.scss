@@ -1,6 +1,7 @@
 #contribute {
 	height: 120vh;
 	min-height: 850px;
+	max-height: 1200px;
 	background-color: #b1bfc2;
 	a {
 		color: white;
@@ -214,8 +215,8 @@
 	html {
 		body {
 			#contribute {
-				height: 100vh;
-				min-height: fit-content;
+				height: 120vh;
+				min-height: 500px;
 				#helpPage-title {
 					font-size: 1rem;
 					text-align: left;

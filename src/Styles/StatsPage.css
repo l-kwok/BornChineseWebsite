@@ -2,6 +2,7 @@
   background-color: #023b4e;
   height: 100vh;
   min-height: 800px;
+  max-height: 1200px;
 }
 
 #learn ul li {
@@ -81,6 +82,7 @@
   html body #learn h2 {
     font-size: 0.96rem;
     padding-top: 15px;
+    letter-spacing: 0.2rem;
   }
   html body #learn ul li {
     list-style: none;
@@ -102,9 +104,14 @@
     min-height: fit-content;
   }
   html body #learn ul li {
-    line-height: 1rem;
+    line-height: 0.75rem;
     color: white;
     margin-top: 25px;
+    margin-left: 23px;
+    list-style: disc;
+  }
+  html body #learn ul li p {
+    font-size: 0.65rem;
   }
 }
 /*# sourceMappingURL=StatsPage.css.map */

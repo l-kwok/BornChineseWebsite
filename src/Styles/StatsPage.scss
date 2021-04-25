@@ -2,6 +2,7 @@
 	background-color: #023b4e;
 	height: 100vh;
 	min-height: 800px;
+	max-height: 1200px;
 	ul {
 		li {
 			p {
@@ -83,6 +84,7 @@
 				h2 {
 					font-size: 0.96rem;
 					padding-top: 15px;
+					letter-spacing: 0.2rem;
 				}
 				ul {
 					li {
@@ -108,11 +110,17 @@
 			#learn {
 				height: 100vh;
 				min-height: fit-content;
+
 				ul {
 					li {
-						line-height: 1rem;
+						line-height: 0.75rem;
 						color: white;
 						margin-top: 25px;
+						margin-left: 23px;
+						list-style: disc;
+						p {
+							font-size: 0.65rem;
+						}
 					}
 				}
 			}

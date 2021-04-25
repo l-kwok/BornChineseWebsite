@@ -9,9 +9,11 @@ const HelpPage = ({ isMobile }) => {
 	const [title, setTitle] = useState(null);
 	const [content, setContent] = useState(null);
 	const [help, setHelp] = useState(true);
+	const [scrollOffset, setScrollOffset] = useState(70);
 
 	useEffect(() => {
 		if (isMobile) {
+			setScrollOffset(70);
 			setAnimation("");
 			setTitle(() => {
 				return (
@@ -30,6 +32,7 @@ const HelpPage = ({ isMobile }) => {
 				);
 			});
 		} else {
+			setScrollOffset(110);
 			setAnimation("fade-left");
 			setTitle(() => {
 				return (
@@ -48,7 +51,7 @@ const HelpPage = ({ isMobile }) => {
 				);
 			});
 		}
-	}, [isMobile, animation]);
+	}, [isMobile, animation, scrollOffset]);
 
 	const handleHelpClick = () => {
 		setHelp(!help);
@@ -60,14 +63,14 @@ const HelpPage = ({ isMobile }) => {
 				<Container fluid className="content-wrapper">
 					<Row>
 						<Col xs={{ offset: 1, span: 10 }}>
-							<h1 id="helpPage-title" >
+							<h1 id="helpPage-title">
 								<Link
 									activeClass="active"
 									to="contribute"
 									smooth={true}
 									duration={500}
 									onClick={handleHelpClick}
-									offset={140}
+									offset={scrollOffset}
 								>
 									Combating racism feels like a daunting task...
 									<br></br>how should I start?
@@ -100,12 +103,12 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{ span: 10, offset: 0 }}>
 							<div data-aos="zoom-in-up" data-aos-delay="300"></div>
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{ span: 10, offset: 0 }}>
 							<div data-aos="zoom-in-up" data-aos-delay="300">
 								<p id="bubble-wrong" className="convo-bubbles">
 									I'm ready to be wrong.
@@ -114,12 +117,12 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} xl={{span: 11, offset: 0}}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{ span: 11, offset: 0 }}>
 							{content}
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{ span: 10, offset: 0 }}>
 							<div data-aos="zoom-in-up" data-aos-delay="700">
 								<p
 									id="bubble-feedback"
@@ -131,7 +134,7 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{ span: 10, offset: 0 }}>
 							<div
 								data-aos="zoom-in-up"
 								data-aos-offset="-400"
@@ -144,7 +147,7 @@ const HelpPage = ({ isMobile }) => {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs={{ span: 10, offset: 1 }} xl={{span: 10, offset: 0}}>
+						<Col xs={{ span: 10, offset: 1 }} xl={{ span: 10, offset: 0 }}>
 							<div
 								data-aos="zoom-in-up"
 								data-aos-offset="-400"
