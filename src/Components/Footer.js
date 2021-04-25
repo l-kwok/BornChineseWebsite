@@ -86,7 +86,6 @@ const Footer = ({ isMobile }) => {
 				)}
 				<Row>
 					<Col
-						xs={{ offset: 1 }}
 						className="d-flex justify-content-center footer-copyright"
 					>
 						<p>

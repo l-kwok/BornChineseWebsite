@@ -21,7 +21,7 @@ const Resources = ({ isMobile }) => {
 											variant="link"
 											eventKey="0"
 										>
-											<h3 id="resource-vancouver">How can you help in Vancouver </h3>
+											<h3 id="resource-vancouver">How you can help in Vancouver </h3>
 											<svg
 												class="bi bi-chevron-down resource-dropdown-chevron"
 												xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const Resources = ({ isMobile }) => {
 											variant="link"
 											eventKey="1"
 										>
-											<h3 id="resource-canada">How can you help in Canada: </h3>
+											<h3 id="resource-canada">How you can help in Canada </h3>
 											<svg
 												class="bi bi-chevron-down resource-dropdown-chevron"
 												xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ const Resources = ({ isMobile }) => {
 				>
 					<Row>
 						<Col>
-							<h3>How can you help in Canada: </h3>
+							<h3>How you can help in Canada: </h3>
 						</Col>
 					</Row>
 					<Row>
@@ -213,7 +213,7 @@ const Resources = ({ isMobile }) => {
 					<Row>
 						<Col>
 							{" "}
-							<h3 className="my-auto">How can you help in Vancouver: </h3>
+							<h3 className="my-auto">How you can help in Vancouver: </h3>
 						</Col>
 					</Row>
 					<Row>

@@ -72,7 +72,7 @@ const HelpPage = ({ isMobile }) => {
 									onClick={handleHelpClick}
 									offset={scrollOffset}
 								>
-									Combating racism feels like a daunting task
+									Combating racism feels like a daunting task.
 								</Link>
 							</h1>
 						</Col>
