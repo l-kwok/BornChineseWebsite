@@ -2,7 +2,6 @@
 	background-color: #487369;
 	height: fit-content;
 	min-height: 600px;
-	max-height: 1000px;
 
 	.resources-container {
 		display: flex;
@@ -143,6 +142,8 @@
 	html {
 		body {
 			#resources {
+				max-height: 1000px;
+
 				.accordion {
 					.card {
 						.card-header {

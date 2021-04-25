@@ -4,7 +4,6 @@
   height: -moz-fit-content;
   height: fit-content;
   min-height: 600px;
-  max-height: 1000px;
 }
 
 #resources .resources-container {
@@ -135,6 +134,9 @@
 }
 
 @media only screen and (max-width: 490px) {
+  html body #resources {
+    max-height: 1000px;
+  }
   html body #resources .accordion .card .card-header {
     padding-bottom: 0;
     padding-right: 5px;
