@@ -1,6 +1,33 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Born Chinese",
+  "name": "Born Chinese Website",
+  "icons": [
+    {
+      "src": "/Images/BornChinese_Logo_rev.png",
+      "type": "image/png",
+      "sizes": "1622x518"
+    },
+    {
+      "src": "/Images/img1.jpeg",
+      "type": "image/jpeg",
+      "sizes": "1566x1044"
+    },
+    {
+      "src": "/Images/img2.jpeg",
+      "type": "image/jpeg",
+      "sizes": "1120x1680"
+    },
+    {
+      "src": "/Images/img3.jpeg",
+      "type": "image/jpeg",
+      "sizes": "1000x1250"
+    },
+    {
+      "src": "/Images/iphone_icon.png",
+      "type": "image/png",
+      "sizes": "1001x1001"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
