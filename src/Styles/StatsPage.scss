@@ -16,7 +16,8 @@
 				}
 			}
 			list-style: none;
-			line-height: 2.5rem;
+			padding-top: 1.5rem;
+			// line-height: 2.5rem;
 			color: white;
 		}
 	}
@@ -49,12 +50,12 @@
 
 	#img-protest{
 		position: absolute;
-		left: 60px;
+		left: 100px;
 		top: -60px;
 	}
 
 	#img-chinatown{
-		left: -80px;
+		left: 10px;
 		top: 140px;
 	}
 }

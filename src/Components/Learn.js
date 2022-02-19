@@ -23,7 +23,7 @@ const StatsPage = ({ isMobile }) => {
 						sm={{ span: 11, offset: 1 }}
 						xl={{ span: 6, offset: 1 }}
 					>
-						<h2>In Vancouver...</h2>
+						<h2>Facts &#38; Stats:</h2>
 						<ul>
 							<li>
 								<div
@@ -31,6 +31,17 @@ const StatsPage = ({ isMobile }) => {
 									data-aos-offset="400"
 									data-aos-duration="400"
 								>
+									<p className="light">Vancouver is the "Anti-Asian Hate Crime Capital of North America."</p>
+								</div>
+							</li>
+							<li>
+								<div
+									data-aos={animation}
+									data-aos-offset="330"
+									data-aos-delay="300"
+									data-aos-duration="400"
+								>
+									<p className="light">Vancouver saw a </p>
 									<p className="bold">717%</p>
 									<p className="light"> increase in </p>
 									<p className="bold">
@@ -47,43 +58,11 @@ const StatsPage = ({ isMobile }) => {
 							<li>
 								<div
 									data-aos={animation}
-									data-aos-offset="330"
-									data-aos-delay="300"
-									data-aos-duration="400"
-								>
-									<p className="superLight strikethrough">12 cases in 2019</p>
-									<p className="light"> vs </p>
-									<p className="bold"> 98 </p>
-									<p className="light"> cases in </p>
-									<p className="bold">
-										<a
-											className="underline"
-											href="https://www.theglobeandmail.com/canada/british-columbia/article-horgan-condemns-rise-in-hate-crimes-against-east-asians-in-vancouver/"
-										>
-											2020
-										</a>
-										.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div
-									data-aos={animation}
 									data-aos-offset="230"
 									data-aos-delay="500"
 									data-aos-duration="400"
 								>
-									<p className="bold">60%</p>
-									<p className="light"> of victims are </p>
-									<p className="bold">
-										<a
-											className="underline"
-											href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian"
-										>
-											women
-										</a>
-										.
-									</p>
+									<p className="light">43% of Asians in B.C. experienced some kind of racism 2020.</p>
 								</div>
 							</li>
 							<li>
@@ -93,20 +72,10 @@ const StatsPage = ({ isMobile }) => {
 									data-aos-delay="700"
 									data-aos-duration="400"
 								>
-									<p className="bold">65%</p>
-									<p className="light"> of incidents are </p>
-									<p className="bold">
-										<a
-											className="underline"
-											href="https://www.straight.com/news/vancouver-police-investigate-two-unprovoked-assault-on-asian-women-as-reports-reveal-anti-asian"
-										>
-											verbal abuse
-										</a>
-										.
-									</p>
+									<p className="light">Asian Americans saw a 339% increase in hate crimes in 2021.</p>
 								</div>
 							</li>
-							<li>
+							{/* <li>
 								<div
 									data-aos={animation}
 									data-aos-offset="140"
@@ -125,7 +94,7 @@ const StatsPage = ({ isMobile }) => {
 										.
 									</p>
 								</div>
-							</li>
+							</li> */}
 						</ul>
 					</Col>
 					<Col>

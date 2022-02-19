@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 .vscode/settings.json
 .gitignore
+
+src/Styles/*.css
+src/Styles/*.css.map
